@@ -59,7 +59,7 @@ var x = setInterval(function() {
     }
 }, 1000);
 
-message = "Fathul & Ririn Wedding Invitation ";
+message = "Wedding Invitation ";
 function step() {
     message = message.substr(1) + message.substr(0,1);
     document.title = message.substr(0,15);
