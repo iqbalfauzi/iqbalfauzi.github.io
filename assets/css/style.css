@@ -1,0 +1,155 @@
+.banner {
+    background-image: url('../img/bg-home.png');
+    padding: 20px 15px 10px 15px;
+    background-position: center;
+    background-repeat: unset;
+    background-size: cover;
+}
+
+.bg-couple {
+    background-image: url('../img/bg-couple.png');
+    background-position: center;
+    background-repeat: unset;
+    background-size: cover;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 180px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 180px;
+    width: 300px;
+}
+
+.iframe_gmap_canvas {
+    width: 300px;
+    height: 180px;
+}
+
+.banner-trans {
+    background: #fff;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.divider-banner-bot {
+    border: 0px;
+    height: 10px;
+}
+
+.wedding-text {
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #333;
+}
+
+.couple-text {
+    text-align: center!important;
+    line-height: 1;
+    margin-bottom: 10px !important;
+    margin-top: -5px;
+    font-size: 36px;
+    font-weight: 400;
+    color: #333;
+    height: 50px;
+}
+
+.acara {
+    background-image: url('../img/bg-simple.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.padding-date {
+    padding: 10px 20px 10px 15px
+}
+
+.margin-date {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding: 10px 15px;
+    font-size: 25px;
+}
+
+.profile-comment {
+    border-radius: 50%;
+    background: #80A299;
+    width: 37px;
+    height: 37px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.profile-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+@media screen and (max-width: 325px) {
+    .margin-date {
+        border-left: 1px solid;
+        border-right: 1px solid;
+        padding: 5px 10px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .banner {
+        background-image: url('../img/banner-big.jpg');
+        padding: 20px 15px 10px 15px;
+        background-position: center;
+        background-repeat: unset;
+        background-size: cover;
+    }
+    .divider-banner-bot {
+        border: 0px;
+        height: 40px;
+    }
+    .banner-trans {
+        background: #fff;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .couple-text {
+        text-align: center!important;
+        line-height: 1;
+        margin-bottom: 10px !important;
+        margin-top: 30px;
+        font-size: 50px;
+        font-weight: 400;
+        color: #333;
+        height: 50px;
+    }
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 300px;
+        width: 700px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    .gmap_canvas {
+        overflow: hidden;
+        background: none!important;
+        height: 300px;
+        width: 700px;
+    }
+    .iframe_gmap_canvas {
+        width: 700px;
+        height: 300px;
+    }
+}
